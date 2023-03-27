@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Context c = MainActivity.this;
-                new AlertDialog.Builder(c).setTitle("About Droid-Runner").setMessage("This is a simple game in which you have to avoid the potholes" + " in the road and eat the food by jumping on a " + "simple tap to gain more points.").setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                new AlertDialog.Builder(c).setTitle("About Android Running").setMessage("This is a simple game in which you have to avoid the potholes" + " in the road and eat the food by jumping on a " + "simple tap to gain more points.").setNegativeButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                     }
